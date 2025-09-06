@@ -1,16 +1,44 @@
-## Hi there 👋
+# Hi there 👋, I'm Ishan Vaidya!
 
-<!--
-**ishanvaidya01/ishanvaidya01** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎓 **CSE Student at VIT Chennai**  
+🏆 **VITEE Rank:** 3591  
+🏅 **10th Grade:** 95.6%  
+🏅 **12th Grade:** 86%
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🚀 About Me
+
+- 👨‍💻 *Intermediate in Python (Numpy, Pandas, Matplotlib)*
+- 🏅 Selected for **Intel AI BootCamp** in 9th grade  
+  ▸ Built an **Electric Bill Generator Model** using Python libraries and trained the model on reliable data  
+- 🤖 *Arduino Enthusiast*  
+  ▸ Built projects involving Servo motors, IR sensors, and LEDs
+
+---
+
+## 🛠️ Skills
+
+- **Languages:** Python, C/C++
+- **AI/ML:** Numpy, Pandas, Matplotlib
+- **Hardware:** Arduino, Sensors, Servo Motors, LEDs
+
+---
+
+## 🌟 Featured Projects
+
+- **Electric Bill Generator Model**  
+  *AI-powered model to predict electricity bills using real data*
+- **Arduino Smart Devices**  
+  *Automation and embedded projects built with sensors and actuators*
+
+---
+
+## 📬 Let's Connect!
+
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin)](your-linkedin-url-here)  
+[![Email](https://img.shields.io/badge/-Email-red?style=flat&logo=gmail)](mailto:your-email-here)
+
+---
+
+<!-- Tip: Replace [Your Name], add your LinkedIn and email, and consider linking to individual project repositories! -->
