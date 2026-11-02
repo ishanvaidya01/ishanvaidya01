@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 156" width="100%" height="156" fill="none">
+  <defs>
+    <style>
+      .stat-val {
+        font-family: 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace;
+        font-weight: 700;
+        font-size: 20px;
+        letter-spacing: -0.5px;
+      }
+      .stat-lbl {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+        font-weight: 600;
+        font-size: 11px;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+      }
+      .sec-hdr {
+        font-family: 'SF Mono', 'JetBrains Mono', ui-monospace, monospace;
+        font-weight: 700;
+        font-size: 11px;
+        letter-spacing: 1px;
+      }
+      @media (prefers-reduced-motion: reduce) {
+        * { animation: none !important; }
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="830" height="156" rx="8" fill="#FFFFFF" stroke="#D0D7DE" stroke-width="1.2"/>
+
+  <!-- Header line -->
+  <g transform="translate(30, 26)">
+    <text x="0" y="0" fill="#0D9488" class="sec-hdr">// SYSTEM TELEMETRY &amp; COMMIT VOLUME</text>
+    <rect x="680" y="-12" width="90" height="18" rx="9" fill="rgba(13, 148, 136, 0.10)"/>
+    <circle cx="690" cy="-3" r="3" fill="#0D9488"/>
+    <text x="698" y="0" font-family="'SF Mono', monospace" font-size="9.5" font-weight="700" fill="#0D9488">ACTIVE</text>
+  </g>
+
+  <!-- Metric Columns (4 items) -->
+  <g transform="translate(30, 48)">
+    <!-- Commits -->
+    <g transform="translate(0, 0)">
+      <text x="0" y="18" fill="#1F2328" class="stat-val">482</text>
+      <text x="0" y="34" fill="#656D76" class="stat-lbl">Yearly Commits</text>
+    </g>
+
+    <!-- PRs Merged -->
+    <g transform="translate(200, 0)">
+      <text x="0" y="18" fill="#1F2328" class="stat-val">34</text>
+      <text x="0" y="34" fill="#656D76" class="stat-lbl">Pull Requests</text>
+    </g>
+
+    <!-- Repos Contributed -->
+    <g transform="translate(400, 0)">
+      <text x="0" y="18" fill="#1F2328" class="stat-val">14</text>
+      <text x="0" y="34" fill="#656D76" class="stat-lbl">Repositories</text>
+    </g>
+
+    <!-- Active Streak -->
+    <g transform="translate(600, 0)">
+      <text x="0" y="18" fill="#0D9488" class="stat-val">18d</text>
+      <text x="0" y="34" fill="#656D76" class="stat-lbl">Active Streak</text>
+    </g>
+  </g>
+
+  <!-- Language Progress Bar Track -->
+  <rect x="30" y="104" width="770" height="8" rx="2" fill="#EAEEF2" />
+  <rect x="30.0" y="104" width="296.4" height="8" rx="2" fill="#3572A5" /><rect x="326.4" y="104" width="186.3" height="8" rx="2" fill="#3178C6" /><rect x="512.8" y="104" width="129.4" height="8" rx="2" fill="#F34B7D" /><rect x="642.1" y="104" width="87.8" height="8" rx="2" fill="#336791" /><rect x="729.9" y="104" width="70.1" height="8" rx="2" fill="#F1E05A" />
+
+  <!-- Language Legend -->
+  
+        <g transform="translate(30, 128)">
+          <circle cx="4" cy="4" r="3.5" fill="#3572A5" />
+          <text x="13" y="7" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="10.5" fill="#1F2328">Python <tspan fill="#656D76">38.5%</tspan></text>
+        </g>
+        
+        <g transform="translate(128, 128)">
+          <circle cx="4" cy="4" r="3.5" fill="#3178C6" />
+          <text x="13" y="7" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="10.5" fill="#1F2328">TypeScript <tspan fill="#656D76">24.2%</tspan></text>
+        </g>
+        
+        <g transform="translate(254, 128)">
+          <circle cx="4" cy="4" r="3.5" fill="#F34B7D" />
+          <text x="13" y="7" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="10.5" fill="#1F2328">C++ <tspan fill="#656D76">16.8%</tspan></text>
+        </g>
+        
+        <g transform="translate(331, 128)">
+          <circle cx="4" cy="4" r="3.5" fill="#336791" />
+          <text x="13" y="7" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="10.5" fill="#1F2328">PostgreSQL / SQL <tspan fill="#656D76">11.4%</tspan></text>
+        </g>
+        
+        <g transform="translate(499, 128)">
+          <circle cx="4" cy="4" r="3.5" fill="#F1E05A" />
+          <text x="13" y="7" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="10.5" fill="#1F2328">JavaScript <tspan fill="#656D76">9.1%</tspan></text>
+        </g>
+        
+</svg>

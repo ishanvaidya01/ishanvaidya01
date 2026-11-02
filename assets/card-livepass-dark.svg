@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 170" width="100%" height="170" fill="none">
+  <defs>
+    <linearGradient id="livepass-border-dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="50%" stop-color="#30363D"/>
+      <stop offset="100%" stop-color="#58E6D9"/>
+    </linearGradient>
+    <style>
+      .mono { font-family: 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace; }
+      .sans { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; }
+      
+      @keyframes pulse-live {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.3; }
+      }
+      @keyframes feed-scroll {
+        0% { transform: translateY(0); }
+        33% { transform: translateY(-22px); }
+        66% { transform: translateY(-44px); }
+        100% { transform: translateY(0); }
+      }
+
+      .live-dot { animation: pulse-live 1.5s infinite; }
+      .feed-list { animation: feed-scroll 9s ease-in-out infinite; }
+
+      @media (prefers-reduced-motion: reduce) {
+        .live-dot, .feed-list { animation: none !important; }
+      }
+    </style>
+  </defs>
+
+  <!-- Card Background & Animated Accent Border -->
+  <rect width="830" height="170" rx="8" fill="#0D1117" stroke="url(#livepass-border-dark)" stroke-width="1.8"/>
+
+  <!-- Left Content Column -->
+  <g transform="translate(28, 26)">
+    <!-- Badges Row -->
+    <rect x="0" y="0" width="94" height="20" rx="4" fill="rgba(245, 158, 11, 0.15)"/>
+    <text x="47" y="13" text-anchor="middle" fill="#F59E0B" class="mono" font-size="9.5" font-weight="700">★ FLAGSHIP</text>
+
+    <rect x="102" y="0" width="150" height="20" rx="4" fill="rgba(88, 230, 217, 0.15)"/>
+    <text x="177" y="13" text-anchor="middle" fill="#58E6D9" class="mono" font-size="9.5" font-weight="700">HIGH-CONCURRENCY</text>
+
+    <!-- Title -->
+    <text x="0" y="44" fill="#E6EDF3" class="sans" font-size="19" font-weight="800" letter-spacing="-0.3">LivePass</text>
+    <text x="86" y="44" fill="#8B949E" class="mono" font-size="12">&#8212; High-Throughput Access Governance</text>
+
+    <!-- Pitch (max 2 sentences, crisp, architectural challenge) -->
+    <text x="0" y="70" fill="#E6EDF3" class="sans" font-size="12.5" font-weight="400">Eliminates double-redemption race conditions during burst ingress using PostgreSQL row-level locks (<tspan fill="#58E6D9" class="mono">SELECT FOR UPDATE</tspan>).</text>
+    <text x="0" y="88" fill="#8B949E" class="sans" font-size="12">Coordinates offline-first client queues via IndexedDB with cryptographic idempotency and sub-100ms WebSocket broadcasts.</text>
+
+    <!-- Stack Chips -->
+    <g transform="translate(0, 108)">
+      <rect x="0" y="0" width="76" height="20" rx="4" fill="#21262D" stroke="#30363D"/>
+      <text x="38" y="13" text-anchor="middle" fill="#C9D1D9" class="mono" font-size="9.5">PostgreSQL</text>
+
+      <rect x="84" y="0" width="60" height="20" rx="4" fill="#21262D" stroke="#30363D"/>
+      <text x="114" y="13" text-anchor="middle" fill="#C9D1D9" class="mono" font-size="9.5">FastAPI</text>
+
+      <rect x="152" y="0" width="76" height="20" rx="4" fill="#21262D" stroke="#30363D"/>
+      <text x="190" y="13" text-anchor="middle" fill="#C9D1D9" class="mono" font-size="9.5">WebSockets</text>
+
+      <rect x="236" y="0" width="72" height="20" rx="4" fill="#21262D" stroke="#30363D"/>
+      <text x="272" y="13" text-anchor="middle" fill="#C9D1D9" class="mono" font-size="9.5">IndexedDB</text>
+
+      <rect x="316" y="0" width="50" height="20" rx="4" fill="#21262D" stroke="#30363D"/>
+      <text x="341" y="13" text-anchor="middle" fill="#C9D1D9" class="mono" font-size="9.5">React</text>
+    </g>
+  </g>
+
+  <!-- Right: Live Feed Diagnostics Box -->
+  <g transform="translate(535, 24)">
+    <rect width="268" height="122" rx="6" fill="#161B22" stroke="#21262D" stroke-width="1"/>
+    
+    <!-- Header -->
+    <circle cx="16" cy="18" r="3.5" fill="#34D399" class="live-dot"/>
+    <text x="26" y="21" fill="#8B949E" class="mono" font-size="9.5" font-weight="700">LIVE INGRESS FEED</text>
+    <text x="250" y="21" text-anchor="end" fill="#484F58" class="mono" font-size="9">ws://sync</text>
+    <line x1="0" y1="32" x2="268" y2="32" stroke="#21262D" stroke-width="1"/>
+
+    <!-- Scrolling Clip Region -->
+    <g clip-path="url(#live-feed-clip-dark)">
+      <clipPath id="live-feed-clip-dark">
+        <rect x="0" y="36" width="268" height="78"/>
+      </clipPath>
+      <g class="feed-list" transform="translate(14, 52)">
+        <!-- Feed Item 1 -->
+        <g transform="translate(0, 0)">
+          <text x="0" y="0" fill="#58E6D9" class="mono" font-size="9.5" font-weight="700">[AUTH]</text>
+          <text x="44" y="0" fill="#E6EDF3" class="mono" font-size="9.5">tx_98c1 &#183; token_valid</text>
+          <text x="238" y="0" text-anchor="end" fill="#484F58" class="mono" font-size="9">0.8ms</text>
+        </g>
+        <!-- Feed Item 2 -->
+        <g transform="translate(0, 22)">
+          <text x="0" y="0" fill="#F59E0B" class="mono" font-size="9.5" font-weight="700">[LOCK]</text>
+          <text x="44" y="0" fill="#E6EDF3" class="mono" font-size="9.5">row_401 &#183; FOR UPDATE</text>
+          <text x="238" y="0" text-anchor="end" fill="#484F58" class="mono" font-size="9">1.2ms</text>
+        </g>
+        <!-- Feed Item 3 -->
+        <g transform="translate(0, 44)">
+          <text x="0" y="0" fill="#34D399" class="mono" font-size="9.5" font-weight="700">[SYNC]</text>
+          <text x="44" y="0" fill="#E6EDF3" class="mono" font-size="9.5">broadcast &#183; 1,420 peak</text>
+          <text x="238" y="0" text-anchor="end" fill="#484F58" class="mono" font-size="9">0.4ms</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

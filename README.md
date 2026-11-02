@@ -1,182 +1,297 @@
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="72%" valign="middle" align="left">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/hero-terminal-dark.svg">
+        <source media="(prefers-color-scheme: light)" srcset="assets/hero-terminal-light.svg">
+        <img src="assets/hero-terminal-dark.svg" alt="Ishan Vaidya Systems Terminal" width="100%">
+      </picture>
+    </td>
+    <td width="28%" valign="middle" align="center">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/avatar-ring-dark.svg">
+        <source media="(prefers-color-scheme: light)" srcset="assets/avatar-ring-light.svg">
+        <img src="assets/avatar-ring-dark.svg" alt="Ishan Vaidya Profile" width="100%">
+      </picture>
+    </td>
+  </tr>
+</table>
+
+<div align="center">
+  <sub><strong>CSE Undergraduate @ VIT Chennai &nbsp;|&nbsp; Full-Stack &amp; AI Systems Engineer &nbsp;&bull;&nbsp; Pune, India</strong></sub>
+</div>
+
+<br>
+
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
-  <img alt="Ishan Vaidya — Full-Stack & AI Systems Engineer" src="assets/banner-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/section-divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/section-divider-light.svg">
+  <img src="assets/section-divider-dark.svg" alt="Section Divider" width="100%">
 </picture>
 
-<div align="center">
-  <br />
-  <a href="mailto:ishan.vaidya01@gmail.com"><img src="https://img.shields.io/badge/Email-ishan.vaidya01%40gmail.com-0284c7?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
-  &nbsp;
-  <a href="https://linkedin.com/in/ishanvaidya-cse"><img src="https://img.shields.io/badge/LinkedIn-ishanvaidya--cse-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  &nbsp;
-  <a href="https://github.com/ishanvaidya01"><img src="https://img.shields.io/badge/GitHub-ishanvaidya01-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
-  &nbsp;
-  <img src="https://img.shields.io/badge/Location-Pune%2C%20India-475569?style=flat-square&logo=googlemaps&logoColor=white" alt="Location">
-</div>
+<br>
 
----
+<!-- TELEMETRY & STATS -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-telemetry-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/header-telemetry-light.svg">
+  <img src="assets/header-telemetry-dark.svg" alt="// 05 — REPOSITORY METRICS &amp; PULSE" width="100%">
+</picture>
 
-### Executive Profile
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-card-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/stats-card-light.svg">
+  <img src="assets/stats-card-dark.svg" alt="GitHub System Telemetry" width="100%">
+</picture>
 
-I am a Computer Science undergraduate at **VIT Chennai** specializing in **high-concurrency backend infrastructure**, **distributed state consistency**, and **autonomous multi-agent AI architectures**. My engineering ethos centers on designing resilient systems with zero tolerance for race conditions, data loss, or opaque black-box abstractions.
+<br><br>
 
-- **Systems & Concurrency:** Architecting high-throughput data ingestion pipelines using PostgreSQL transactional locking (`SELECT FOR UPDATE`), sub-second streaming backplanes via WebSockets / SSE, and in-memory ring buffers.
-- **Agentic AI & ML:** Engineering deterministic multi-agent swarms using LangChain and local models (ONNX, Donut) paired with counterfactual explainability (SHAP, XAI) and strictly typed Pydantic validation.
-- **Enterprise Dual-Store Systems:** Building hybrid architectures that synchronize BCNF-normalized relational structures (Oracle XE, PostgreSQL) with high-dimensional vector embeddings (ChromaDB).
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ishanvaidya01/ishanvaidya01/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ishanvaidya01/ishanvaidya01/output/github-contribution-grid-snake.svg">
+  <img src="https://raw.githubusercontent.com/ishanvaidya01/ishanvaidya01/output/github-contribution-grid-snake-dark.svg" alt="Contribution Grid Snake Animation" width="100%">
+</picture>
 
----
+<br>
 
-### Flagship Systems & Architectures
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/section-divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/section-divider-light.svg">
+  <img src="assets/section-divider-dark.svg" alt="Section Divider" width="100%">
+</picture>
 
-<table>
+<br>
+
+<!-- CATEGORY 01: HIGH-CONCURRENCY -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-01-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/header-01-light.svg">
+  <img src="assets/header-01-dark.svg" alt="// 01 — HIGH-CONCURRENCY &amp; SYSTEMS INFRASTRUCTURE" width="100%">
+</picture>
+
+<!-- Flagship: LivePass -->
+<a href="https://github.com/ishanvaidya01">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/card-livepass-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/card-livepass-light.svg">
+    <img src="assets/card-livepass-dark.svg" alt="LivePass Flagship Access Ingestion Engine" width="100%">
+  </picture>
+</a>
+<p>
+  <strong><a href="https://github.com/ishanvaidya01">LivePass</a></strong> &#8212; <em>Production-Grade Access Governance &amp; Event Ingestion Engine.</em> Eliminates double-redemption race conditions during burst ingress using PostgreSQL row-level locks (<code>SELECT FOR UPDATE</code>). Coordinates an offline-first client architecture leveraging IndexedDB transaction queues with cryptographic idempotency keys and sub-100ms bi-directional WebSocket occupancy broadcasts.
+</p>
+
+<table width="100%" border="0" cellspacing="8" cellpadding="0">
   <tr>
     <td width="50%" valign="top">
-      <h3>LivePass &nbsp;<code>FLAGSHIP</code></h3>
-      <p><strong>High-Throughput Access Governance &amp; Ingestion Engine</strong></p>
-      <p>Production-grade event check-in platform engineered to withstand peak burst ingress while eliminating ticket duplication and race conditions.</p>
-      <ul>
-        <li><strong>Concurrency Safety:</strong> PostgreSQL row-level locks (<code>SELECT FOR UPDATE</code>) ensure strict serializability under concurrent redemptions.</li>
-        <li><strong>Offline-First Pipeline:</strong> IndexedDB client queue with cryptographic idempotency keys ensures flawless syncing across network dropouts.</li>
-        <li><strong>Real-Time Synchronization:</strong> Bi-directional WebSocket broadcasting keeps venue occupancy metrics in sub-100ms sync.</li>
-      </ul>
-      <p><sub><strong>Stack:</strong> PostgreSQL &bull; FastAPI &bull; WebSockets &bull; IndexedDB &bull; React &bull; Tailwind CSS</sub></p>
+      <a href="https://github.com/ishanvaidya01">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/card-sentio-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="assets/card-sentio-light.svg">
+          <img src="assets/card-sentio-dark.svg" alt="Sentio Robotic Telemetry Black Box" width="100%">
+        </picture>
+      </a>
+      <p>
+        <strong><a href="https://github.com/ishanvaidya01">Sentio</a></strong> &#8212; <em>Real-Time Robotic Telemetry &amp; Teleoperation Black Box.</em> Streams sub-second telemetry using Node.js Server-Sent Events (SSE) and cache-friendly in-memory circular ring buffers that prevent memory fragmentation during multi-kHz packet bursts, triggering native <code>AudioContext</code> alarms.
+      </p>
     </td>
     <td width="50%" valign="top">
-      <h3>Sentio</h3>
-      <p><strong>Real-Time Robotic Telemetry &amp; Diagnostics Black Box</strong></p>
-      <p>High-frequency robotic diagnostics backplane engineered to process multi-kHz telemetry bursts without memory fragmentation or event-loop starvation.</p>
-      <ul>
-        <li><strong>Sub-Second Streaming:</strong> Server-Sent Events (SSE) backplane coupled with cache-friendly circular in-memory ring buffers.</li>
-        <li><strong>Acoustic Alarm Engine:</strong> Dynamic client-side rule evaluation triggers native Web Audio API (<code>AudioContext</code>) for zero-latency auditory alerts.</li>
-        <li><strong>Zero Data Loss:</strong> Constant-time $O(1)$ buffer ingestion prevents memory leaks during erratic network degradation.</li>
-      </ul>
-      <p><sub><strong>Stack:</strong> Node.js &bull; Server-Sent Events &bull; In-Memory Ring Buffers &bull; Web Audio API &bull; TypeScript</sub></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>GST Archangel</h3>
-      <p><strong>Seven-Agent Autonomous Tax Auditing Swarm</strong></p>
-      <p>Multi-agent financial intelligence system orchestrating 7 specialized autonomous micro-agents across OCR extraction, ledger reconciliation, and statutory risk auditing.</p>
-      <ul>
-        <li><strong>Local Vision OCR:</strong> Fine-tuned local Donut vision models for structured document parsing without third-party API exposure.</li>
-        <li><strong>Statutory RAG:</strong> Deterministic Retrieval-Augmented Generation validating transactions against Indian GST law.</li>
-        <li><strong>Live Telemetry:</strong> WebSocket multiplexing streams intermediate agentic reasoning chains for transparent human verification.</li>
-      </ul>
-      <p><sub><strong>Stack:</strong> LangChain &bull; Donut OCR &bull; FastAPI &bull; ChromaDB &bull; RAG &bull; WebSockets</sub></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>ECRAS</h3>
-      <p><strong>Enterprise Compliance Recruitment Audit System</strong></p>
-      <p>Dual-store enterprise auditing platform enforcing strict EEOC bias verification across hiring pipelines while guaranteeing zero external data egress.</p>
-      <ul>
-        <li><strong>Dual-Store Core:</strong> Synchronizes BCNF-normalized relational state in Oracle XE with high-dimensional vector embeddings in ChromaDB.</li>
-        <li><strong>Tamper-Evident Auditing:</strong> Autonomous PL/SQL transactions create auditable, isolated execution boundaries.</li>
-        <li><strong>Local Embeddings:</strong> High-speed ONNX runtime embeddings deployed on local edge nodes for total data privacy.</li>
-      </ul>
-      <p><sub><strong>Stack:</strong> Oracle XE &bull; ChromaDB &bull; PL/SQL &bull; ONNX Runtime &bull; Python</sub></p>
+      <a href="https://github.com/ishanvaidya01">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/card-ecras-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="assets/card-ecras-light.svg">
+          <img src="assets/card-ecras-dark.svg" alt="ECRAS Enterprise Audit System" width="100%">
+        </picture>
+      </a>
+      <p>
+        <strong><a href="https://github.com/ishanvaidya01">ECRAS</a></strong> &#8212; <em>Enterprise Recruitment Compliance &amp; Bias Audit System.</em> Dual-store architecture synchronizing BCNF-normalized relational schemas on Oracle XE with vector embeddings on ChromaDB, using PL/SQL autonomous transactions and local ONNX embeddings for zero data egress EEOC auditing.
+      </p>
     </td>
   </tr>
 </table>
 
----
+<br>
 
-### Selected Engineering Portfolio
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/section-divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/section-divider-light.svg">
+  <img src="assets/section-divider-dark.svg" alt="Section Divider" width="100%">
+</picture>
 
-#### Autonomous Multi-Agent Systems & Explainable AI
-- **AeroTrade XAI — Autonomous Supply Chain Orchestration Engine**  
-  Multi-modal supply chain dispatch agent built on LangChain with strictly typed Pydantic output validation and deterministic tool invocation guards. Replaces stochastic black-box outputs with an interactive "Why This, Not That" counterfactual reasoning matrix to surface actionable trade-offs across cost, latency, and vendor reliability.
-- **MindMesh — Collaborative Learning Engine with Event-Sourced State**  
-  Distributed interactive learning environment designed with an event-sourced architecture enabling deterministic state replay and non-destructive rewind of live multi-participant sessions. Orchestrates asynchronous state mutation through Django Channels and Redis Pub/Sub backplanes, augmented by a real-time Socratic AI copilot that generates contextual scaffolded hints without disclosing solution states.
-- **Scam Shield — Cross-Account Coordinated Fraud Detection Engine**  
-  Live conversational abuse detector combining semantic graph clustering and cross-account linguistic similarity to uncover syndicated fraud campaigns. Integrates SHAP-instrumented logistic regression for sub-millisecond, interpretable risk scoring while enforcing deliberate abstention heuristics on stealthy L3-Single anomalous signatures to minimize false positives.
+<br>
 
-#### Applied Machine Learning & High-Impact Products
-- **Shelf2Cash — Micro-Factoring & Kirana Liquidity Engine**  
-  B2B retail working-capital optimizer utilizing MongoDB Geospatial indexing for supply-cluster matchmaking and localized inventory pooling. Backed by a high-throughput FastAPI machine learning microservice that models historical kirana replenishment velocity to power predictive cash-flow forecasting and micro-factoring qualification.
-- **VarhadAgro — Agronomic Yield Forecast Model (Vidarbha Basin)**  
-  High-precision regional crop yield forecasting engine achieving an $R^2$ of 0.92 across the semi-arid Vidarbha agricultural zone. Ingests longitudinal rainfall distributions, micro-climate thermal variations, and dry-spell duration metrics to yield granular production estimates in kg/ha for localized risk mitigation.
-- **AgriGuard — Edge Plant Pathology Diagnostic System**  
-  Edge-optimized diagnostic API powered by FastAPI and a convolutional TensorFlow classifier trained on leaf pathology imagery. Delivers instant disease segmentation, projects localized contagion spread via dynamic Leaflet geospatial mapping, and provides automated dual-track mitigation protocols separating organic interventions from chemical treatments.
-- **Lassi House — High-Frequency Quick-Service POS & Order Pipeline**  
-  Campus-scale retail ordering system built with FastAPI, PostgreSQL, React, and Zustand state synchronization. Engineered with atomic order lifecycle transitions, automated stock ledger reconciliation, and strict webhooks idempotency handling integrated with Razorpay payment gateways.
+<!-- CATEGORY 02: AUTONOMOUS AI & MULTI-AGENT SYSTEMS -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-02-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/header-02-light.svg">
+  <img src="assets/header-02-dark.svg" alt="// 02 — AUTONOMOUS AI &amp; MULTI-AGENT SYSTEMS" width="100%">
+</picture>
 
----
-
-### Technical Matrix & Toolchain
-
-<table>
+<table width="100%" border="0" cellspacing="8" cellpadding="0">
   <tr>
-    <td width="22%"><strong>Core Languages</strong></td>
-    <td>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-      <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++" />
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
-      <img src="https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white" alt="SQL" />
+    <td width="50%" valign="top">
+      <a href="https://github.com/ishanvaidya01">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/card-aerotrade-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="assets/card-aerotrade-light.svg">
+          <img src="assets/card-aerotrade-dark.svg" alt="AeroTrade XAI Supply Chain Agent" width="100%">
+        </picture>
+      </a>
+      <p>
+        <strong><a href="https://github.com/ishanvaidya01">AeroTrade XAI</a></strong> &#8212; <em>Autonomous Supply-Chain Orchestrator.</em> LangChain agent with deterministic tool execution guards and Pydantic validation, surfacing trade-offs via transparent &quot;Why This, Not That&quot; counterfactual reasoning panels.
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/ishanvaidya01">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/card-gst-archangel-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="assets/card-gst-archangel-light.svg">
+          <img src="assets/card-gst-archangel-dark.svg" alt="GST Archangel Seven-Agent Swarm" width="100%">
+        </picture>
+      </a>
+      <p>
+        <strong><a href="https://github.com/ishanvaidya01">GST Archangel</a></strong> &#8212; <em>Autonomous Multi-Agent Tax Auditing Swarm.</em> Coordinates 7 specialized agents across OCR, reconciliation, and risk scoring using local Donut models, statutory RAG legal validation, and real-time WebSocket thought streaming.
+      </p>
     </td>
   </tr>
   <tr>
-    <td><strong>Backend &amp; Systems</strong></td>
-    <td>
-      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-      <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js" />
-      <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Django" />
-      <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express" />
-      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-      <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
-      <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
-      <img src="https://img.shields.io/badge/Oracle%20XE-F80000?style=flat-square&logo=oracle&logoColor=white" alt="Oracle" />
+    <td width="50%" valign="top">
+      <a href="https://github.com/ishanvaidya01">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/card-mindmesh-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="assets/card-mindmesh-light.svg">
+          <img src="assets/card-mindmesh-dark.svg" alt="MindMesh Event-Sourced Platform" width="100%">
+        </picture>
+      </a>
+      <p>
+        <strong><a href="https://github.com/ishanvaidya01">MindMesh</a></strong> &#8212; <em>Event-Sourced Collaborative Learning Platform.</em> Implements deterministic state replay and quiz rewind via Django Channels and Redis Pub/Sub, delivering live multi-user synchronization with Socratic hint generation.
+      </p>
     </td>
-  </tr>
-  <tr>
-    <td><strong>AI &amp; Data Engineering</strong></td>
-    <td>
-      <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=chainlink&logoColor=white" alt="LangChain" />
-      <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
-      <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow" />
-      <img src="https://img.shields.io/badge/ChromaDB-FF4F00?style=flat-square&logo=databricks&logoColor=white" alt="ChromaDB" />
-      <img src="https://img.shields.io/badge/ONNX%20Runtime-005CED?style=flat-square&logo=onnx&logoColor=white" alt="ONNX" />
-      <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="Scikit-Learn" />
-    </td>
-  </tr>
-  <tr>
-    <td><strong>Frontend &amp; UI</strong></td>
-    <td>
-      <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-      <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
-      <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind" />
-      <img src="https://img.shields.io/badge/Zustand-433E38?style=flat-square&logo=react&logoColor=white" alt="Zustand" />
-      <img src="https://img.shields.io/badge/Vanilla%20JS-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="Vanilla JS" />
+    <td width="50%" valign="top">
+      <a href="https://github.com/ishanvaidya01">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/card-scamshield-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="assets/card-scamshield-light.svg">
+          <img src="assets/card-scamshield-dark.svg" alt="Scam Shield Fraud Detector" width="100%">
+        </picture>
+      </a>
+      <p>
+        <strong><a href="https://github.com/ishanvaidya01">Scam Shield</a></strong> &#8212; <em>Live Chat Campaign &amp; Coordinated Fraud Detector.</em> Structural graph clustering and cross-account semantic analysis with SHAP explainability and deliberate abstention heuristics on stealthy L3-Single anomalies.
+      </p>
     </td>
   </tr>
 </table>
 
----
+<br>
 
-### Activity & Repository Metrics
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/section-divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/section-divider-light.svg">
+  <img src="assets/section-divider-dark.svg" alt="Section Divider" width="100%">
+</picture>
 
+<br>
+
+<!-- CATEGORY 03: REAL-WORLD IMPACT & ML APPLICATIONS -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-03-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/header-03-light.svg">
+  <img src="assets/header-03-dark.svg" alt="// 03 — REAL-WORLD IMPACT &amp; ML APPLICATIONS" width="100%">
+</picture>
+
+<table width="100%" border="0" cellspacing="8" cellpadding="0">
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/ishanvaidya01">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/card-shelf2cash-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="assets/card-shelf2cash-light.svg">
+          <img src="assets/card-shelf2cash-dark.svg" alt="Shelf2Cash Retail FinTech Engine" width="100%">
+        </picture>
+      </a>
+      <p>
+        <strong><a href="https://github.com/ishanvaidya01">Shelf2Cash</a></strong> &#8212; <em>Kirana Retail Liquidity &amp; Micro-Factoring Engine.</em> Uses MongoDB 2dsphere geospatial clustering for supply matchmaking and a FastAPI ML microservice forecasting cash flow from historical velocity.
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/ishanvaidya01">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/card-varhadagro-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="assets/card-varhadagro-light.svg">
+          <img src="assets/card-varhadagro-dark.svg" alt="VarhadAgro Agronomic Yield Forecast" width="100%">
+        </picture>
+      </a>
+      <p>
+        <strong><a href="https://github.com/ishanvaidya01">VarhadAgro</a></strong> &#8212; <em>Agronomic Yield Forecast Model (Vidarbha Basin).</em> Multivariate ML model achieving R&#178; 0.92 on longitudinal rainfall, thermal variance, and dry spells to predict granular agricultural yield in kg/ha.
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/ishanvaidya01">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/card-agriguard-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="assets/card-agriguard-light.svg">
+          <img src="assets/card-agriguard-dark.svg" alt="AgriGuard Crop Pathology Diagnostic" width="100%">
+        </picture>
+      </a>
+      <p>
+        <strong><a href="https://github.com/ishanvaidya01">AgriGuard</a></strong> &#8212; <em>Edge Plant Pathology Diagnostic System.</em> FastAPI microservice paired with a convolutional TensorFlow model for leaf pathology segmentation, Leaflet outbreak maps, and dual-track organic/inorganic remedies.
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/ishanvaidya01">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/card-lassihouse-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="assets/card-lassihouse-light.svg">
+          <img src="assets/card-lassihouse-dark.svg" alt="Lassi House Retail POS Pipeline" width="100%">
+        </picture>
+      </a>
+      <p>
+        <strong><a href="https://github.com/ishanvaidya01">Lassi House</a></strong> &#8212; <em>High-Frequency Quick-Service POS &amp; Order Pipeline.</em> Campus retail ordering engine built on FastAPI, PostgreSQL, React, and Zustand with atomic inventory state transitions and idempotent Razorpay webhooks.
+      </p>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/section-divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/section-divider-light.svg">
+  <img src="assets/section-divider-dark.svg" alt="Section Divider" width="100%">
+</picture>
+
+<br>
+
+<!-- TECH STACK -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-stack-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/header-stack-light.svg">
+  <img src="assets/header-stack-dark.svg" alt="// 04 — TECHNICAL ARSENAL &amp; TOOLCHAIN" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/tech-stack-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/tech-stack-light.svg">
+  <img src="assets/tech-stack-dark.svg" alt="Technical Arsenal &amp; Toolchain" width="100%">
+</picture>
+
+<br><br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/section-divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/section-divider-light.svg">
+  <img src="assets/section-divider-dark.svg" alt="Section Divider" width="100%">
+</picture>
+
+<br>
+
+<!-- FOOTER -->
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=ishanvaidya01&show_icons=true&hide_border=true&title_color=38bdf8&text_color=cbd5e1&icon_color=38bdf8&bg_color=0d1117&hide=rank" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=ishanvaidya01&show_icons=true&hide_border=true&title_color=0284c7&text_color=334155&icon_color=0284c7&bg_color=ffffff&hide=rank" />
-    <img src="https://github-readme-stats.vercel.app/api?username=ishanvaidya01&show_icons=true&hide_border=true&title_color=0284c7&text_color=334155&icon_color=0284c7&bg_color=ffffff&hide=rank" alt="GitHub Metrics" />
-  </picture>
-  &nbsp;&nbsp;
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ishanvaidya01&layout=compact&hide_border=true&title_color=38bdf8&text_color=cbd5e1&bg_color=0d1117" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ishanvaidya01&layout=compact&hide_border=true&title_color=0284c7&text_color=334155&bg_color=ffffff" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ishanvaidya01&layout=compact&hide_border=true&title_color=0284c7&text_color=334155&bg_color=ffffff" alt="Top Languages" />
-  </picture>
-</div>
-
----
-
-<div align="center">
-  <strong>Let's Build Resilient Systems Together</strong>
-  <br /><br />
-  <a href="mailto:ishan.vaidya01@gmail.com">ishan.vaidya01@gmail.com</a> &nbsp;&bull;&nbsp; 
-  <a href="https://linkedin.com/in/ishanvaidya-cse">linkedin.com/in/ishanvaidya-cse</a> &nbsp;&bull;&nbsp; 
-  <a href="https://github.com/ishanvaidya01">github.com/ishanvaidya01</a>
+  <a href="mailto:ishan.vaidya01@gmail.com"><strong>Email</strong></a> &nbsp;&bull;&nbsp; 
+  <a href="https://linkedin.com/in/ishanvaidya-cse"><strong>LinkedIn</strong></a> &nbsp;&bull;&nbsp; 
+  <a href="https://github.com/ishanvaidya01"><strong>Portfolio</strong></a>
+  <br><br>
+  <sub>Architected with precision &bull; Theme-Adaptive &bull; Self-Hosted Vector Assets</sub>
 </div>
