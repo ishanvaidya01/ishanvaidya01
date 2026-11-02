@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 170" width="100%" height="170" fill="none">
+  <defs>
+    <linearGradient id="top-bar-light" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="50%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Card Background -->
+  <rect width="920" height="170" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect width="920" height="4" rx="2" fill="url(#top-bar-light)"/>
+
+  <!-- Status Pill -->
+  <rect x="36" y="24" width="248" height="26" rx="13" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+  <circle cx="50" cy="37" r="4" fill="#16a34a"/>
+  <text x="64" y="41" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#15803d" letter-spacing="0.5">OPEN TO ENGINEERING ROLES</text>
+
+  <!-- Name & Titles -->
+  <text x="36" y="90" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="30" font-weight="800" fill="#0f172a" letter-spacing="-0.5">Ishan Vaidya</text>
+  <text x="36" y="116" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#2563eb">Full-Stack &amp; AI Systems Engineer</text>
+  <text x="36" y="140" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#64748b">High-Concurrency Backends &#8226; Distributed State &#8226; Autonomous Multi-Agent Swarms</text>
+
+  <!-- Right Meta Card -->
+  <g transform="translate(670, 24)">
+    <rect width="214" height="122" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+    
+    <text x="16" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="10.5" font-weight="700" fill="#94a3b8" letter-spacing="1">LOCATION &amp; EDUCATION</text>
+    <text x="16" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#1e293b">CSE @ VIT Chennai</text>
+    <text x="16" y="66" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="400" fill="#64748b">Pune, India (UTC+5:30)</text>
+    
+    <line x1="16" y1="78" x2="198" y2="78" stroke="#e2e8f0" stroke-width="1"/>
+    
+    <text x="16" y="98" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="10.5" font-weight="700" fill="#94a3b8" letter-spacing="1">CORE DOMAIN</text>
+    <text x="16" y="114" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="600" fill="#0284c7">Distributed Systems &amp; AI</text>
+  </g>
+</svg>

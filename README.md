@@ -1,118 +1,182 @@
-<div align="center">
-  <img src="./assets/animus_hero.svg" alt="Animus Neural Synchronization Interface // Ishan Vaidya" width="100%" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
+  <img alt="Ishan Vaidya — Full-Stack & AI Systems Engineer" src="assets/banner-light.svg" width="100%">
+</picture>
 
+<div align="center">
   <br />
-
-  <a href="https://github.com/ishanvaidya01">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=15&duration=2400&pause=1000&color=00F0FF&background=03071200&center=true&vCenter=true&width=780&lines=%5B%2B%5D+ANIMUS+CORE+V9.84%3A+GENETIC+MEMORY+STREAM+ONLINE;%5B%2B%5D+EAGLE+VISION+CALIBRATED%3A+DETECTING+CONCURRENCY+FAULTS+%26+RACE+CONDITIONS;%5B%2B%5D+WE+WORK+IN+THE+DARK+TO+SERVE+THE+LIGHT...;%5B%2B%5D+ORCHESTRATING+7-AGENT+SWARMS+%2B+EVENT-SOURCED+STATE+REPLAY" alt="Animus Terminal Diagnostics" />
-  </a>
+  <a href="mailto:ishan.vaidya01@gmail.com"><img src="https://img.shields.io/badge/Email-ishan.vaidya01%40gmail.com-0284c7?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+  &nbsp;
+  <a href="https://linkedin.com/in/ishanvaidya-cse"><img src="https://img.shields.io/badge/LinkedIn-ishanvaidya--cse-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  &nbsp;
+  <a href="https://github.com/ishanvaidya01"><img src="https://img.shields.io/badge/GitHub-ishanvaidya01-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Location-Pune%2C%20India-475569?style=flat-square&logo=googlemaps&logoColor=white" alt="Location">
 </div>
 
-<br />
+---
 
-```
-==================================================================================================
-[!] ABSTERGO NEURAL INTERFACE // MEMORY DESYNCHRONIZATION SAFEGUARD: ARMED
-OPERATIVE: Ishan Vaidya             | SECTOR: Pune, India [VIT Chennai Node]
-RANK: Master Systems Architect       | SYNCHRONIZATION RATIO: 99.84% [MAX FIDELITY]
-EAGLE VISION: ACTIVE                 | CREED: "Nothing is true. Everything is permitted."
-==================================================================================================
-```
+### Executive Profile
 
-### // THE CODEX: ARCHITECTURAL MANIFESTO
+I am a Computer Science undergraduate at **VIT Chennai** specializing in **high-concurrency backend infrastructure**, **distributed state consistency**, and **autonomous multi-agent AI architectures**. My engineering ethos centers on designing resilient systems with zero tolerance for race conditions, data loss, or opaque black-box abstractions.
 
-Where legacy distributed architectures crumble under high-velocity concurrency spikes, we enforce deterministic row-level locks and distributed coordination barriers. Where stochastic AI models hallucinate behind opaque interfaces, we construct explainable counterfactual reasoning matrices and deterministic multi-agent swarms with zero external data egress.
+- **Systems & Concurrency:** Architecting high-throughput data ingestion pipelines using PostgreSQL transactional locking (`SELECT FOR UPDATE`), sub-second streaming backplanes via WebSockets / SSE, and in-memory ring buffers.
+- **Agentic AI & ML:** Engineering deterministic multi-agent swarms using LangChain and local models (ONNX, Donut) paired with counterfactual explainability (SHAP, XAI) and strictly typed Pydantic validation.
+- **Enterprise Dual-Store Systems:** Building hybrid architectures that synchronize BCNF-normalized relational structures (Oracle XE, PostgreSQL) with high-dimensional vector embeddings (ChromaDB).
 
-We work in the dark of backend infrastructure to deliver production light.
+---
+
+### Flagship Systems & Architectures
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>LivePass &nbsp;<code>FLAGSHIP</code></h3>
+      <p><strong>High-Throughput Access Governance &amp; Ingestion Engine</strong></p>
+      <p>Production-grade event check-in platform engineered to withstand peak burst ingress while eliminating ticket duplication and race conditions.</p>
+      <ul>
+        <li><strong>Concurrency Safety:</strong> PostgreSQL row-level locks (<code>SELECT FOR UPDATE</code>) ensure strict serializability under concurrent redemptions.</li>
+        <li><strong>Offline-First Pipeline:</strong> IndexedDB client queue with cryptographic idempotency keys ensures flawless syncing across network dropouts.</li>
+        <li><strong>Real-Time Synchronization:</strong> Bi-directional WebSocket broadcasting keeps venue occupancy metrics in sub-100ms sync.</li>
+      </ul>
+      <p><sub><strong>Stack:</strong> PostgreSQL &bull; FastAPI &bull; WebSockets &bull; IndexedDB &bull; React &bull; Tailwind CSS</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Sentio</h3>
+      <p><strong>Real-Time Robotic Telemetry &amp; Diagnostics Black Box</strong></p>
+      <p>High-frequency robotic diagnostics backplane engineered to process multi-kHz telemetry bursts without memory fragmentation or event-loop starvation.</p>
+      <ul>
+        <li><strong>Sub-Second Streaming:</strong> Server-Sent Events (SSE) backplane coupled with cache-friendly circular in-memory ring buffers.</li>
+        <li><strong>Acoustic Alarm Engine:</strong> Dynamic client-side rule evaluation triggers native Web Audio API (<code>AudioContext</code>) for zero-latency auditory alerts.</li>
+        <li><strong>Zero Data Loss:</strong> Constant-time $O(1)$ buffer ingestion prevents memory leaks during erratic network degradation.</li>
+      </ul>
+      <p><sub><strong>Stack:</strong> Node.js &bull; Server-Sent Events &bull; In-Memory Ring Buffers &bull; Web Audio API &bull; TypeScript</sub></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>GST Archangel</h3>
+      <p><strong>Seven-Agent Autonomous Tax Auditing Swarm</strong></p>
+      <p>Multi-agent financial intelligence system orchestrating 7 specialized autonomous micro-agents across OCR extraction, ledger reconciliation, and statutory risk auditing.</p>
+      <ul>
+        <li><strong>Local Vision OCR:</strong> Fine-tuned local Donut vision models for structured document parsing without third-party API exposure.</li>
+        <li><strong>Statutory RAG:</strong> Deterministic Retrieval-Augmented Generation validating transactions against Indian GST law.</li>
+        <li><strong>Live Telemetry:</strong> WebSocket multiplexing streams intermediate agentic reasoning chains for transparent human verification.</li>
+      </ul>
+      <p><sub><strong>Stack:</strong> LangChain &bull; Donut OCR &bull; FastAPI &bull; ChromaDB &bull; RAG &bull; WebSockets</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>ECRAS</h3>
+      <p><strong>Enterprise Compliance Recruitment Audit System</strong></p>
+      <p>Dual-store enterprise auditing platform enforcing strict EEOC bias verification across hiring pipelines while guaranteeing zero external data egress.</p>
+      <ul>
+        <li><strong>Dual-Store Core:</strong> Synchronizes BCNF-normalized relational state in Oracle XE with high-dimensional vector embeddings in ChromaDB.</li>
+        <li><strong>Tamper-Evident Auditing:</strong> Autonomous PL/SQL transactions create auditable, isolated execution boundaries.</li>
+        <li><strong>Local Embeddings:</strong> High-speed ONNX runtime embeddings deployed on local edge nodes for total data privacy.</li>
+      </ul>
+      <p><sub><strong>Stack:</strong> Oracle XE &bull; ChromaDB &bull; PL/SQL &bull; ONNX Runtime &bull; Python</sub></p>
+    </td>
+  </tr>
+</table>
+
+---
+
+### Selected Engineering Portfolio
+
+#### Autonomous Multi-Agent Systems & Explainable AI
+- **AeroTrade XAI — Autonomous Supply Chain Orchestration Engine**  
+  Multi-modal supply chain dispatch agent built on LangChain with strictly typed Pydantic output validation and deterministic tool invocation guards. Replaces stochastic black-box outputs with an interactive "Why This, Not That" counterfactual reasoning matrix to surface actionable trade-offs across cost, latency, and vendor reliability.
+- **MindMesh — Collaborative Learning Engine with Event-Sourced State**  
+  Distributed interactive learning environment designed with an event-sourced architecture enabling deterministic state replay and non-destructive rewind of live multi-participant sessions. Orchestrates asynchronous state mutation through Django Channels and Redis Pub/Sub backplanes, augmented by a real-time Socratic AI copilot that generates contextual scaffolded hints without disclosing solution states.
+- **Scam Shield — Cross-Account Coordinated Fraud Detection Engine**  
+  Live conversational abuse detector combining semantic graph clustering and cross-account linguistic similarity to uncover syndicated fraud campaigns. Integrates SHAP-instrumented logistic regression for sub-millisecond, interpretable risk scoring while enforcing deliberate abstention heuristics on stealthy L3-Single anomalous signatures to minimize false positives.
+
+#### Applied Machine Learning & High-Impact Products
+- **Shelf2Cash — Micro-Factoring & Kirana Liquidity Engine**  
+  B2B retail working-capital optimizer utilizing MongoDB Geospatial indexing for supply-cluster matchmaking and localized inventory pooling. Backed by a high-throughput FastAPI machine learning microservice that models historical kirana replenishment velocity to power predictive cash-flow forecasting and micro-factoring qualification.
+- **VarhadAgro — Agronomic Yield Forecast Model (Vidarbha Basin)**  
+  High-precision regional crop yield forecasting engine achieving an $R^2$ of 0.92 across the semi-arid Vidarbha agricultural zone. Ingests longitudinal rainfall distributions, micro-climate thermal variations, and dry-spell duration metrics to yield granular production estimates in kg/ha for localized risk mitigation.
+- **AgriGuard — Edge Plant Pathology Diagnostic System**  
+  Edge-optimized diagnostic API powered by FastAPI and a convolutional TensorFlow classifier trained on leaf pathology imagery. Delivers instant disease segmentation, projects localized contagion spread via dynamic Leaflet geospatial mapping, and provides automated dual-track mitigation protocols separating organic interventions from chemical treatments.
+- **Lassi House — High-Frequency Quick-Service POS & Order Pipeline**  
+  Campus-scale retail ordering system built with FastAPI, PostgreSQL, React, and Zustand state synchronization. Engineered with atomic order lifecycle transitions, automated stock ledger reconciliation, and strict webhooks idempotency handling integrated with Razorpay payment gateways.
+
+---
+
+### Technical Matrix & Toolchain
+
+<table>
+  <tr>
+    <td width="22%"><strong>Core Languages</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+      <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++" />
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+      <img src="https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white" alt="SQL" />
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Backend &amp; Systems</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+      <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js" />
+      <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Django" />
+      <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express" />
+      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+      <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
+      <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
+      <img src="https://img.shields.io/badge/Oracle%20XE-F80000?style=flat-square&logo=oracle&logoColor=white" alt="Oracle" />
+    </td>
+  </tr>
+  <tr>
+    <td><strong>AI &amp; Data Engineering</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=chainlink&logoColor=white" alt="LangChain" />
+      <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
+      <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow" />
+      <img src="https://img.shields.io/badge/ChromaDB-FF4F00?style=flat-square&logo=databricks&logoColor=white" alt="ChromaDB" />
+      <img src="https://img.shields.io/badge/ONNX%20Runtime-005CED?style=flat-square&logo=onnx&logoColor=white" alt="ONNX" />
+      <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="Scikit-Learn" />
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Frontend &amp; UI</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+      <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
+      <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind" />
+      <img src="https://img.shields.io/badge/Zustand-433E38?style=flat-square&logo=react&logoColor=white" alt="Zustand" />
+      <img src="https://img.shields.io/badge/Vanilla%20JS-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="Vanilla JS" />
+    </td>
+  </tr>
+</table>
+
+---
+
+### Activity & Repository Metrics
 
 <div align="center">
-  <img src="./assets/animus_divider.svg" width="100%" alt="Animus HUD Divider" />
-</div>
-
-### // MEMORY SEQUENCES: CLASSIFIED ARCHITECTURAL ARTIFACTS
-
-#### SEQUENCE 01 // HIGH-CONCURRENCY INFRASTRUCTURE & DISTRIBUTED BLADES
-
-### LivePass — High-Throughput Access Ingestion Engine [Master Assassin Spec]
-Production-grade access governance platform engineered to eliminate double-redemption race conditions during burst ingress using PostgreSQL row-level locks (`SELECT FOR UPDATE`). Combines an offline-first client architecture leveraging IndexedDB transaction queues with cryptographic idempotency keys and bi-directional WebSocket broadcasting for synchronized, sub-100ms occupancy metrics.
-
-### Sentio — Real-Time Telemetry & Teleoperation Black Box
-Sub-second robotic telemetry streaming backplane built on Node.js Server-Sent Events (SSE) and cache-friendly in-memory ring buffers to prevent memory leaks under multi-kHz packet bursts. Features a client-side dynamic rule evaluation engine wired directly to native Web Audio API (`AudioContext`) synthesis for instantaneous, zero-latency acoustic alarm dispatch.
-
-### ECRAS — Enterprise Compliance Recruitment Audit System
-Dual-store enterprise compliance platform synchronizing a relational BCNF-normalized schema on Oracle XE with high-dimensional vector embeddings on ChromaDB. Utilizes PL/SQL autonomous transactions to enforce tamper-evident, auditable execution boundaries for EEOC bias tracking alongside locally hosted ONNX embedding pipelines to guarantee zero external data egress.
-
-<br />
-
-#### SEQUENCE 02 // AUTONOMOUS AGENT SWARMS & EAGLE VISION COGNITION
-
-### AeroTrade XAI — Autonomous Supply Chain Orchestration Engine
-Multi-modal supply chain dispatch agent built on LangChain with strictly typed Pydantic output validation and deterministic tool invocation guards. Replaces stochastic black-box outputs with an interactive "Why This, Not That" counterfactual reasoning matrix to surface actionable trade-offs across cost, latency, and vendor reliability.
-
-### GST Archangel — The Seven-Agent Autonomous Tax Auditing Brotherhood
-Multi-agent financial reconciliation platform coordinating 7 specialized micro-agents across OCR extraction, ledger reconciliation, and statutory risk scoring. Employs fine-tuned local Donut vision models for document parsing, deterministic RAG for Indian GST legal validation, and WebSocket multiplexing for real-time inspection of intermediate agentic thought streams.
-
-### MindMesh — Collaborative Learning Engine with Event-Sourced State
-Distributed interactive learning environment designed with an event-sourced architecture enabling deterministic state replay and non-destructive rewind of live multi-participant sessions. Orchestrates asynchronous state mutation through Django Channels and Redis Pub/Sub backplanes, augmented by a real-time Socratic AI copilot that generates contextual scaffolded hints without disclosing solution states.
-
-### Scam Shield — Cross-Account Coordinated Fraud Detection Engine
-Live conversational abuse detector combining semantic graph clustering and cross-account linguistic similarity to uncover syndicated fraud campaigns. Integrates SHAP-instrumented logistic regression for sub-millisecond, interpretable risk scoring while enforcing deliberate abstention heuristics on stealthy L3-Single anomalous signatures to minimize false positives.
-
-<br />
-
-#### SEQUENCE 03 // FIELD DEPLOYMENTS & APPLIED MACHINE LEARNING
-
-### Shelf2Cash — Micro-Factoring & Kirana Liquidity Engine
-B2B retail working-capital optimizer utilizing MongoDB Geospatial indexing for supply-cluster matchmaking and localized inventory pooling. Backed by a high-throughput FastAPI machine learning microservice that models historical kirana replenishment velocity to power predictive cash-flow forecasting and micro-factoring qualification.
-
-### VarhadAgro — Agronomic Yield Forecast Model (Vidarbha Basin)
-High-precision regional crop yield forecasting engine achieving an R² of 0.92 across the semi-arid Vidarbha agricultural zone. Ingests longitudinal rainfall distributions, micro-climate thermal variations, and dry-spell duration metrics to yield granular production estimates in kg/ha for localized risk mitigation.
-
-### AgriGuard — Edge Plant Pathology Diagnostic System
-Edge-optimized diagnostic API powered by FastAPI and a convolutional TensorFlow classifier trained on leaf pathology imagery. Delivers instant disease segmentation, projects localized contagion spread via dynamic Leaflet geospatial mapping, and provides automated dual-track mitigation protocols separating organic interventions from chemical treatments.
-
-### Lassi House — High-Frequency Quick-Service POS & Order Pipeline
-Campus-scale retail ordering system built with FastAPI, PostgreSQL, React, and Zustand state synchronization. Engineered with atomic order lifecycle transitions, automated stock ledger reconciliation, and strict webhooks idempotency handling integrated with Razorpay payment gateways.
-
-<div align="center">
-  <img src="./assets/animus_divider.svg" width="100%" alt="Animus HUD Divider" />
-</div>
-
-### // THE BROTHERHOOD ARSENAL: TACTICAL TECH STACK
-
-| Weaponry / Discipline | Core Toolchain & Armaments |
-| :--- | :--- |
-| **Cryptographic Dialects** | ![Python](https://img.shields.io/badge/Python-080F24?style=flat-square&logo=python&logoColor=00f0ff) ![C++](https://img.shields.io/badge/C%2B%2B-080F24?style=flat-square&logo=c%2B%2B&logoColor=ff003c) ![TypeScript](https://img.shields.io/badge/TypeScript-080F24?style=flat-square&logo=typescript&logoColor=00f0ff) ![JavaScript](https://img.shields.io/badge/JavaScript-080F24?style=flat-square&logo=javascript&logoColor=ffd700) ![SQL](https://img.shields.io/badge/SQL-080F24?style=flat-square&logo=postgresql&logoColor=38bdf8) |
-| **Animus Core & Concurrency** | ![Node.js](https://img.shields.io/badge/Node.js-080F24?style=flat-square&logo=node.js&logoColor=00f0ff) ![FastAPI](https://img.shields.io/badge/FastAPI-080F24?style=flat-square&logo=fastapi&logoColor=00f0ff) ![Django](https://img.shields.io/badge/Django-080F24?style=flat-square&logo=django&logoColor=38bdf8) ![Express](https://img.shields.io/badge/Express-080F24?style=flat-square&logo=express&logoColor=e2e8f0) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-080F24?style=flat-square&logo=postgresql&logoColor=00f0ff) ![Redis](https://img.shields.io/badge/Redis-080F24?style=flat-square&logo=redis&logoColor=ff003c) ![MongoDB](https://img.shields.io/badge/MongoDB-080F24?style=flat-square&logo=mongodb&logoColor=00f0ff) ![Oracle XE](https://img.shields.io/badge/Oracle_XE-080F24?style=flat-square&logo=oracle&logoColor=ff003c) |
-| **Eagle Vision & Cognitive Swarms** | ![LangChain](https://img.shields.io/badge/LangChain-080F24?style=flat-square&logo=chainlink&logoColor=ffd700) ![TensorFlow](https://img.shields.io/badge/TensorFlow-080F24?style=flat-square&logo=tensorflow&logoColor=ff003c) ![PyTorch](https://img.shields.io/badge/PyTorch-080F24?style=flat-square&logo=pytorch&logoColor=ff003c) ![ChromaDB](https://img.shields.io/badge/ChromaDB-080F24?style=flat-square&logo=databricks&logoColor=00f0ff) ![ONNX](https://img.shields.io/badge/ONNX-080F24?style=flat-square&logo=onnx&logoColor=00f0ff) ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-080F24?style=flat-square&logo=scikitlearn&logoColor=ffd700) |
-| **Holographic HUDs & Synch Layers** | ![React](https://img.shields.io/badge/React-080F24?style=flat-square&logo=react&logoColor=00f0ff) ![Vite](https://img.shields.io/badge/Vite-080F24?style=flat-square&logo=vite&logoColor=38bdf8) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-080F24?style=flat-square&logo=tailwindcss&logoColor=00f0ff) ![Zustand](https://img.shields.io/badge/Zustand-080F24?style=flat-square&logo=react&logoColor=ffd700) ![Vanilla JS](https://img.shields.io/badge/Vanilla_JS-080F24?style=flat-square&logo=javascript&logoColor=ffd700) |
-
-<div align="center">
-  <img src="./assets/animus_divider.svg" width="100%" alt="Animus HUD Divider" />
-</div>
-
-### // EAGLE VISION: TELEMETRY & SYNCHRONIZATION RADAR
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ishanvaidya01&show_icons=true&hide_border=false&title_color=00f0ff&text_color=94a3b8&icon_color=ff003c&bg_color=040711&border_color=00f0ff33&hide=rank" alt="Brotherhood Performance Metrics" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=ishanvaidya01&show_icons=true&hide_border=true&title_color=38bdf8&text_color=cbd5e1&icon_color=38bdf8&bg_color=0d1117&hide=rank" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=ishanvaidya01&show_icons=true&hide_border=true&title_color=0284c7&text_color=334155&icon_color=0284c7&bg_color=ffffff&hide=rank" />
+    <img src="https://github-readme-stats.vercel.app/api?username=ishanvaidya01&show_icons=true&hide_border=true&title_color=0284c7&text_color=334155&icon_color=0284c7&bg_color=ffffff&hide=rank" alt="GitHub Metrics" />
+  </picture>
   &nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ishanvaidya01&layout=compact&hide_border=false&title_color=00f0ff&text_color=94a3b8&bg_color=040711&border_color=ff003c33" alt="Primary Dialects Ingestion" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ishanvaidya01&layout=compact&hide_border=true&title_color=38bdf8&text_color=cbd5e1&bg_color=0d1117" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ishanvaidya01&layout=compact&hide_border=true&title_color=0284c7&text_color=334155&bg_color=ffffff" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ishanvaidya01&layout=compact&hide_border=true&title_color=0284c7&text_color=334155&bg_color=ffffff" alt="Top Languages" />
+  </picture>
 </div>
 
-<br />
+---
 
 <div align="center">
-  <img src="./assets/animus_divider.svg" width="100%" alt="Animus HUD Divider" />
-
-  <br />
-
-  ```
-  // SECURE TRANSMISSION CHANNELS //
-  ```
-
-  [SECURE DISPATCH (EMAIL)](mailto:ishan.vaidya01@gmail.com) &nbsp;|&nbsp; [BROTHERHOOD REGISTRY (LINKEDIN)](https://www.linkedin.com/in/ishanvaidya-cse) &nbsp;|&nbsp; [NEURAL REPOSITORY (GITHUB)](https://github.com/ishanvaidya01)
-
-  <br />
-
-  <sub><em>Requiescat in pace, latency. Nothing is true; everything is permitted.</em></sub>
+  <strong>Let's Build Resilient Systems Together</strong>
+  <br /><br />
+  <a href="mailto:ishan.vaidya01@gmail.com">ishan.vaidya01@gmail.com</a> &nbsp;&bull;&nbsp; 
+  <a href="https://linkedin.com/in/ishanvaidya-cse">linkedin.com/in/ishanvaidya-cse</a> &nbsp;&bull;&nbsp; 
+  <a href="https://github.com/ishanvaidya01">github.com/ishanvaidya01</a>
 </div>
