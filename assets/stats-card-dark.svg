@@ -66,33 +66,33 @@
 
   <!-- Language Progress Bar Track -->
   <rect x="30" y="104" width="770" height="8" rx="2" fill="#21262D" />
-  <rect x="30.0" y="104" width="296.4" height="8" rx="2" fill="#3572A5" /><rect x="326.4" y="104" width="186.3" height="8" rx="2" fill="#3178C6" /><rect x="512.8" y="104" width="129.4" height="8" rx="2" fill="#F34B7D" /><rect x="642.1" y="104" width="87.8" height="8" rx="2" fill="#336791" /><rect x="729.9" y="104" width="70.1" height="8" rx="2" fill="#F1E05A" />
+  <rect x="30.0" y="104" width="373.4" height="8" rx="2" fill="#f1e05a" /><rect x="403.4" y="104" width="202.5" height="8" rx="2" fill="#3572A5" /><rect x="606.0" y="104" width="104.7" height="8" rx="2" fill="#3178c6" /><rect x="710.7" y="104" width="54.7" height="8" rx="2" fill="#e34c26" /><rect x="765.3" y="104" width="24.6" height="8" rx="2" fill="#663399" />
 
   <!-- Language Legend -->
   
         <g transform="translate(30, 128)">
-          <circle cx="4" cy="4" r="3.5" fill="#3572A5" />
-          <text x="13" y="7" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="10.5" fill="#E6EDF3">Python <tspan fill="#8B949E">38.5%</tspan></text>
+          <circle cx="4" cy="4" r="3.5" fill="#f1e05a" />
+          <text x="13" y="7" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="10.5" fill="#E6EDF3">JavaScript <tspan fill="#8B949E">48.5%</tspan></text>
         </g>
         
-        <g transform="translate(128, 128)">
-          <circle cx="4" cy="4" r="3.5" fill="#3178C6" />
-          <text x="13" y="7" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="10.5" fill="#E6EDF3">TypeScript <tspan fill="#8B949E">24.2%</tspan></text>
+        <g transform="translate(156, 128)">
+          <circle cx="4" cy="4" r="3.5" fill="#3572A5" />
+          <text x="13" y="7" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="10.5" fill="#E6EDF3">Python <tspan fill="#8B949E">26.3%</tspan></text>
         </g>
         
         <g transform="translate(254, 128)">
-          <circle cx="4" cy="4" r="3.5" fill="#F34B7D" />
-          <text x="13" y="7" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="10.5" fill="#E6EDF3">C++ <tspan fill="#8B949E">16.8%</tspan></text>
+          <circle cx="4" cy="4" r="3.5" fill="#3178c6" />
+          <text x="13" y="7" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="10.5" fill="#E6EDF3">TypeScript <tspan fill="#8B949E">13.6%</tspan></text>
         </g>
         
-        <g transform="translate(331, 128)">
-          <circle cx="4" cy="4" r="3.5" fill="#336791" />
-          <text x="13" y="7" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="10.5" fill="#E6EDF3">PostgreSQL / SQL <tspan fill="#8B949E">11.4%</tspan></text>
+        <g transform="translate(380, 128)">
+          <circle cx="4" cy="4" r="3.5" fill="#e34c26" />
+          <text x="13" y="7" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="10.5" fill="#E6EDF3">HTML <tspan fill="#8B949E">7.1%</tspan></text>
         </g>
         
-        <g transform="translate(499, 128)">
-          <circle cx="4" cy="4" r="3.5" fill="#F1E05A" />
-          <text x="13" y="7" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="10.5" fill="#E6EDF3">JavaScript <tspan fill="#8B949E">9.1%</tspan></text>
+        <g transform="translate(464, 128)">
+          <circle cx="4" cy="4" r="3.5" fill="#663399" />
+          <text x="13" y="7" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="10.5" fill="#E6EDF3">CSS <tspan fill="#8B949E">3.2%</tspan></text>
         </g>
         
 </svg>
