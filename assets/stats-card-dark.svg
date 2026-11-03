@@ -41,7 +41,7 @@
   <g transform="translate(30, 48)">
     <!-- Commits -->
     <g transform="translate(0, 0)">
-      <text x="0" y="18" fill="#E6EDF3" class="stat-val">154</text>
+      <text x="0" y="18" fill="#E6EDF3" class="stat-val">155</text>
       <text x="0" y="34" fill="#8B949E" class="stat-lbl">Yearly Commits</text>
     </g>
 
@@ -66,7 +66,7 @@
 
   <!-- Language Progress Bar Track -->
   <rect x="30" y="104" width="770" height="8" rx="2" fill="#21262D" />
-  <rect x="30.0" y="104" width="372.7" height="8" rx="2" fill="#F1E05A" /><rect x="402.7" y="104" width="204.1" height="8" rx="2" fill="#3572A5" /><rect x="606.7" y="104" width="104.7" height="8" rx="2" fill="#3178C6" /><rect x="711.5" y="104" width="54.7" height="8" rx="2" fill="#E34C26" /><rect x="766.1" y="104" width="23.9" height="8" rx="2" fill="#563D7C" />
+  <rect x="30.0" y="104" width="372.7" height="8" rx="2" fill="#F1E05A" /><rect x="402.7" y="104" width="203.3" height="8" rx="2" fill="#3572A5" /><rect x="606.0" y="104" width="104.7" height="8" rx="2" fill="#3178C6" /><rect x="710.7" y="104" width="54.7" height="8" rx="2" fill="#E34C26" /><rect x="765.3" y="104" width="24.6" height="8" rx="2" fill="#563D7C" />
 
   <!-- Language Legend -->
   
@@ -77,7 +77,7 @@
         
         <g transform="translate(156, 128)">
           <circle cx="4" cy="4" r="3.5" fill="#3572A5" />
-          <text x="13" y="7" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="10.5" fill="#E6EDF3">Python <tspan fill="#8B949E">26.5%</tspan></text>
+          <text x="13" y="7" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="10.5" fill="#E6EDF3">Python <tspan fill="#8B949E">26.4%</tspan></text>
         </g>
         
         <g transform="translate(254, 128)">
@@ -92,7 +92,7 @@
         
         <g transform="translate(464, 128)">
           <circle cx="4" cy="4" r="3.5" fill="#563D7C" />
-          <text x="13" y="7" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="10.5" fill="#E6EDF3">CSS <tspan fill="#8B949E">3.1%</tspan></text>
+          <text x="13" y="7" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="10.5" fill="#E6EDF3">CSS <tspan fill="#8B949E">3.2%</tspan></text>
         </g>
         
 </svg>
