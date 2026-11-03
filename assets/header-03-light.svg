@@ -20,7 +20,7 @@
   <rect x="0" y="8" width="4" height="24" rx="2" fill="#0D9488"/>
   
   <!-- Title -->
-  <text x="18" y="24" fill="#1F2328" class="hdr-title">// 03 — REAL-WORLD IMPACT &amp; ML APPLICATIONS</text>
+  <text x="18" y="24" fill="#1F2328" class="hdr-title">// 04 — REAL-WORLD IMPACT &amp; ML APPLICATIONS</text>
   
   <!-- Right Category Pill -->
   <rect x="690" y="10" width="140" height="20" rx="10" fill="rgba(13, 148, 136, 0.12)" stroke="#E1E4E8"/>

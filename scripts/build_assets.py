@@ -510,8 +510,48 @@ def build_tech_stack(theme="dark"):
 </svg>'''
 
 # -------------------------------------------------------------------------
-# GENERATION DISPATCHER
+# 8. CONNECT BANNER (830 x 130) — three contact channel panels
 # -------------------------------------------------------------------------
+def build_connect_banner(theme="dark"):
+    c = THEMES[theme]
+
+    def panel(dx, glyph, channel, title, value):
+        return f'''
+  <g transform="translate({dx}, 15)">
+    <rect width="260" height="100" rx="8" fill="{c['surface']}" stroke="{c['border']}" stroke-width="1.2"/>
+    <circle cx="34" cy="50" r="15" fill="{c['accent_dim']}" stroke="{c['accent']}" stroke-opacity="0.35" stroke-width="1"/>
+    <text x="34" y="54" text-anchor="middle" font-family="{FONT_MONO}" font-size="13" font-weight="700" fill="{c['accent']}">{glyph}</text>
+    <text x="60" y="34" font-family="{FONT_MONO}" font-size="9" font-weight="700" letter-spacing="1" fill="{c['accent']}">{channel}</text>
+    <text x="60" y="54" font-family="{FONT_SANS}" font-size="13.5" font-weight="700" fill="{c['text']}">{title}</text>
+    <text x="60" y="74" font-family="{FONT_MONO}" font-size="10.5" fill="{c['text_muted']}">{value}</text>
+    <circle cx="245" cy="15" r="3" fill="{c['success']}" class="ping"/>
+  </g>'''
+
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 130" width="100%" height="130" fill="none">
+  <defs>
+    <style>
+      @keyframes ping {{
+        0%, 100% {{ opacity: 1; }}
+        50% {{ opacity: 0.25; }}
+      }}
+      .ping {{ animation: ping 1.6s ease-in-out infinite; }}
+      @media (prefers-reduced-motion: reduce) {{
+        .ping {{ animation: none !important; }}
+      }}
+    </style>
+  </defs>
+
+  <!-- Outer Boundary -->
+  <rect width="830" height="130" rx="8" fill="{c['bg']}" stroke="{c['border']}" stroke-width="1.2"/>
+
+  <!-- Channel 01: Email -->
+  {panel(15, "@", "CH_01 // DIRECT MAIL", "Email", "ishan.vaidya01@gmail.com")}
+  <!-- Channel 02: LinkedIn -->
+  {panel(285, "in", "CH_02 // NETWORK NODE", "LinkedIn", "linkedin.com/in/ishanvaidya-cse")}
+  <!-- Channel 03: GitHub -->
+  {panel(555, "&#123; &#125;", "CH_03 // CODE BASE", "Portfolio", "@ishanvaidya01")}
+</svg>'''
+
 def main():
     print("[*] Generating production-grade theme-adaptive SVG assets...")
 
@@ -530,11 +570,11 @@ def main():
 
         # 4. Section Headers
         headers = [
-            ("header-01", "// 01 — HIGH-CONCURRENCY & SYSTEMS INFRASTRUCTURE", "CONCURRENCY"),
-            ("header-02", "// 02 — AUTONOMOUS AI & MULTI-AGENT SYSTEMS", "AGENTIC AI"),
-            ("header-03", "// 03 — REAL-WORLD IMPACT & ML APPLICATIONS", "APPLIED ML"),
-            ("header-stack", "// 04 — TECHNICAL ARSENAL & TOOLCHAIN", "FULL-STACK"),
-            ("header-telemetry", "// 05 — REPOSITORY TELEMETRY & PULSE", "SYSTEM PULSE"),
+            ("header-telemetry", "// 01 — REPOSITORY TELEMETRY & PULSE", "SYSTEM PULSE"),
+            ("header-01", "// 02 — HIGH-CONCURRENCY & SYSTEMS INFRASTRUCTURE", "CONCURRENCY"),
+            ("header-02", "// 03 — AUTONOMOUS AI & MULTI-AGENT SYSTEMS", "AGENTIC AI"),
+            ("header-03", "// 04 — REAL-WORLD IMPACT & ML APPLICATIONS", "APPLIED ML"),
+            ("header-stack", "// 05 — TECHNICAL ARSENAL & TOOLCHAIN", "FULL-STACK"),
         ]
         for name, title, tag in headers:
             with open(os.path.join(ASSETS_DIR, f"{name}-{theme}.svg"), "w", encoding="utf-8") as f:
@@ -575,7 +615,7 @@ def main():
              ["SHAP", "Scikit-Learn", "FastAPI", "NLP"]),
 
             # Category 3
-            ("card-shelf2cash", "Shelf2Cash", "FINTECH ENGINE", 
+            ("card-self2cash", "Self2Cash", "FINTECH ENGINE",
              "Kirana retail financial engine with MongoDB Geospatial cluster matchmaking.", 
              "FastAPI ML microservice models historical replenishment to drive micro-factoring.",
              ["MongoDB Geo", "FastAPI", "ML Microservice", "React"]),
@@ -600,6 +640,10 @@ def main():
         # 7. Tech Stack
         with open(os.path.join(ASSETS_DIR, f"tech-stack-{theme}.svg"), "w", encoding="utf-8") as f:
             f.write(build_tech_stack(theme))
+
+        # 8. Connect Banner
+        with open(os.path.join(ASSETS_DIR, f"footer-connect-{theme}.svg"), "w", encoding="utf-8") as f:
+            f.write(build_connect_banner(theme))
 
     print(f"[+] All assets successfully generated in {ASSETS_DIR}")
 

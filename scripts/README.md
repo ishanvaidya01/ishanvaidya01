@@ -7,10 +7,13 @@ This directory contains the automation tooling used to generate and maintain the
 ### 1. `generate_stats.py`
 Queries the GitHub GraphQL API to compile authenticated real-time metrics:
 - Past year commit volume
-- Merged pull requests
-- Contributed repositories
-- Active streak days
-- Weighted language distribution
+- Pull request activity
+- Owned repositories
+- Current contribution streak (computed from the contribution calendar)
+- Byte-weighted language distribution
+
+Falls back to unauthenticated REST telemetry and, as a last resort, to a
+verified static snapshot — the numbers are never inflated.
 
 Generates two production SVGs:
 - `assets/stats-card-dark.svg`
@@ -18,16 +21,16 @@ Generates two production SVGs:
 
 **Local Execution:**
 ```bash
-# Using personal access token:
+# Using personal access token (full GraphQL telemetry):
 export GITHUB_TOKEN="ghp_your_token_here"
 python scripts/generate_stats.py
 
-# Without token (falls back to calibrated base telemetry):
+# Without token (computed from the public REST API):
 python scripts/generate_stats.py
 ```
 
 ### 2. `build_assets.py`
-The master design compiler that builds all 44 vector assets (hero terminal, avatar ring, section headers, flagship LivePass card with live feed simulation, compact project cards, and tech stack matrix) with dark and light variants.
+The master design compiler that builds all 44 vector assets (hero terminal, avatar ring, section headers, flagship LivePass card with live feed simulation, compact project cards, tech stack matrix, and the contact-channel connect banner) with dark and light variants.
 
 **Local Execution:**
 ```bash
@@ -36,3 +39,4 @@ python scripts/build_assets.py
 
 ### 3. `verify_render.py`
 Quality gate verification harness that uses headless Chromium to render every asset at 830px (desktop) and 390px (mobile), verifying visual bounds and animation execution.
+

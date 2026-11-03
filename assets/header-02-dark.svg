@@ -20,7 +20,7 @@
   <rect x="0" y="8" width="4" height="24" rx="2" fill="#58E6D9"/>
   
   <!-- Title -->
-  <text x="18" y="24" fill="#E6EDF3" class="hdr-title">// 02 — AUTONOMOUS AI &amp; MULTI-AGENT SYSTEMS</text>
+  <text x="18" y="24" fill="#E6EDF3" class="hdr-title">// 03 — AUTONOMOUS AI &amp; MULTI-AGENT SYSTEMS</text>
   
   <!-- Right Category Pill -->
   <rect x="690" y="10" width="140" height="20" rx="10" fill="rgba(88, 230, 217, 0.15)" stroke="#21262D"/>

@@ -34,32 +34,32 @@
     <text x="0" y="0" fill="#0D9488" class="sec-hdr">// SYSTEM TELEMETRY &amp; COMMIT VOLUME</text>
     <rect x="680" y="-12" width="90" height="18" rx="9" fill="rgba(13, 148, 136, 0.10)"/>
     <circle cx="690" cy="-3" r="3" fill="#0D9488"/>
-    <text x="698" y="0" font-family="'SF Mono', monospace" font-size="9.5" font-weight="700" fill="#0D9488">ACTIVE</text>
+    <text x="698" y="0" font-family="'SF Mono', monospace" font-size="9.5" font-weight="700" fill="#0D9488">LIVE</text>
   </g>
 
   <!-- Metric Columns (4 items) -->
   <g transform="translate(30, 48)">
     <!-- Commits -->
     <g transform="translate(0, 0)">
-      <text x="0" y="18" fill="#1F2328" class="stat-val">482</text>
+      <text x="0" y="18" fill="#1F2328" class="stat-val">145</text>
       <text x="0" y="34" fill="#656D76" class="stat-lbl">Yearly Commits</text>
     </g>
 
-    <!-- PRs Merged -->
+    <!-- PRs -->
     <g transform="translate(200, 0)">
-      <text x="0" y="18" fill="#1F2328" class="stat-val">34</text>
+      <text x="0" y="18" fill="#1F2328" class="stat-val">2</text>
       <text x="0" y="34" fill="#656D76" class="stat-lbl">Pull Requests</text>
     </g>
 
-    <!-- Repos Contributed -->
+    <!-- Repos -->
     <g transform="translate(400, 0)">
-      <text x="0" y="18" fill="#1F2328" class="stat-val">14</text>
+      <text x="0" y="18" fill="#1F2328" class="stat-val">12</text>
       <text x="0" y="34" fill="#656D76" class="stat-lbl">Repositories</text>
     </g>
 
     <!-- Active Streak -->
     <g transform="translate(600, 0)">
-      <text x="0" y="18" fill="#0D9488" class="stat-val">18d</text>
+      <text x="0" y="18" fill="#0D9488" class="stat-val">1d</text>
       <text x="0" y="34" fill="#656D76" class="stat-lbl">Active Streak</text>
     </g>
   </g>

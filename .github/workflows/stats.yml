@@ -36,3 +36,4 @@ jobs:
           git add assets/stats-card-dark.svg assets/stats-card-light.svg
           git diff --quiet && git diff --staged --quiet || (git commit -m "chore(telemetry): update profile stats [skip ci]" && git push)
         continue-on-error: true
+
