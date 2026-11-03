@@ -297,69 +297,50 @@ def build_section_header(title, tag, theme="dark"):
 </svg>'''
 
 # -------------------------------------------------------------------------
-# 5. FLAGSHIP PROJECT CARD: LIVEPASS (830 x 185)
+# 5. FLAGSHIP PROJECT CARD: LIVEPASS (830 x 160)
 # -------------------------------------------------------------------------
 def build_livepass_card(theme="dark"):
     c = THEMES[theme]
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 185" width="100%" height="185" fill="none">
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 160" width="100%" height="160" fill="none">
   <defs>
     <linearGradient id="livepass-border-{theme}" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="{c['warm']}"/>
       <stop offset="50%" stop-color="{c['border']}"/>
       <stop offset="100%" stop-color="{c['accent']}"/>
     </linearGradient>
-    <clipPath id="live-feed-clip-{theme}">
-      <rect x="525" y="58" width="280" height="96" rx="2"/>
-    </clipPath>
     <style>
       .mono {{ font-family: {FONT_MONO}; }}
       .sans {{ font-family: {FONT_SANS}; }}
-      
-      @keyframes pulse-live {{
-        0%, 100% {{ opacity: 1; }}
-        50% {{ opacity: 0.3; }}
-      }}
-      @keyframes feed-scroll {{
-        0%, 25% {{ transform: translateY(0); }}
-        33%, 58% {{ transform: translateY(-24px); }}
-        66%, 91% {{ transform: translateY(-48px); }}
-        100% {{ transform: translateY(0); }}
-      }}
-
-      .live-dot {{ animation: pulse-live 1.5s infinite; }}
-      .feed-list {{ animation: feed-scroll 9s ease-in-out infinite; }}
-
-      @media (prefers-reduced-motion: reduce) {{
-        .live-dot, .feed-list {{ animation: none !important; transform: none !important; }}
-      }}
     </style>
   </defs>
 
-  <!-- Card Background & Animated Accent Border -->
-  <rect width="830" height="185" rx="8" fill="{c['bg']}" stroke="url(#livepass-border-{theme})" stroke-width="1.8"/>
+  <!-- Card Background & Accent Border -->
+  <rect width="830" height="160" rx="8" fill="{c['bg']}" stroke="url(#livepass-border-{theme})" stroke-width="1.8"/>
 
-  <!-- Left Content Column -->
-  <g transform="translate(26, 22)">
+  <!-- Content Container (Full Width) -->
+  <g transform="translate(28, 22)">
     <!-- Badges Row -->
-    <rect x="0" y="0" width="94" height="20" rx="4" fill="{c['warm_dim']}"/>
-    <text x="47" y="13" text-anchor="middle" fill="{c['warm']}" class="mono" font-size="9.5" font-weight="700">&#9733; FLAGSHIP</text>
+    <rect x="0" y="0" width="100" height="20" rx="4" fill="{c['warm_dim']}"/>
+    <text x="50" y="13" text-anchor="middle" fill="{c['warm']}" class="mono" font-size="9.5" font-weight="700">&#9733; FLAGSHIP</text>
 
-    <rect x="102" y="0" width="150" height="20" rx="4" fill="{c['accent_dim']}"/>
-    <text x="177" y="13" text-anchor="middle" fill="{c['accent']}" class="mono" font-size="9.5" font-weight="700">HIGH-CONCURRENCY</text>
+    <rect x="108" y="0" width="154" height="20" rx="4" fill="{c['accent_dim']}"/>
+    <text x="185" y="13" text-anchor="middle" fill="{c['accent']}" class="mono" font-size="9.5" font-weight="700">HIGH-CONCURRENCY</text>
+
+    <!-- Right Header Spec -->
+    <text x="774" y="13.5" text-anchor="end" fill="{c['text_muted']}" class="mono" font-size="9.5">ACID SERIALIZABLE &#183; SUB-100MS SYNC</text>
 
     <!-- Title -->
-    <text x="0" y="46" fill="{c['text']}" class="sans" font-size="19" font-weight="800" letter-spacing="-0.3">LivePass</text>
-    <text x="86" y="46" fill="{c['text_muted']}" class="mono" font-size="11.5">&#8212; High-Throughput Access Ingestion Engine</text>
+    <text x="0" y="44" fill="{c['text']}" class="sans" font-size="19" font-weight="800" letter-spacing="-0.3">LivePass</text>
+    <text x="86" y="44" fill="{c['text_muted']}" class="mono" font-size="12">&#8212; High-Throughput Access Governance &amp; Ingestion Engine</text>
 
-    <!-- Pitch Wrapped to 4 lines (max 480px width to avoid hitting right box at x=525) -->
-    <text x="0" y="72" fill="{c['text']}" class="sans" font-size="12" font-weight="500">Eliminates double-redemption race conditions during burst ingress</text>
-    <text x="0" y="88" fill="{c['text']}" class="sans" font-size="12" font-weight="500">using PostgreSQL row-level locks (<tspan fill="{c['accent']}" class="mono" font-weight="700">SELECT FOR UPDATE</tspan>).</text>
-    
-    <text x="0" y="110" fill="{c['text_muted']}" class="sans" font-size="11.5">Offline-first client queues via IndexedDB with cryptographic idempotency</text>
-    <text x="0" y="126" fill="{c['text_muted']}" class="sans" font-size="11.5">and synchronized sub-100ms bi-directional WebSocket broadcasts.</text>
+    <!-- Pitch Line 1 -->
+    <text x="0" y="68" fill="{c['text']}" class="sans" font-size="12" font-weight="500">Eliminates double-redemption race conditions during burst ingress using PostgreSQL row-level locks (<tspan fill="{c['accent']}" class="mono" font-weight="700">SELECT FOR UPDATE</tspan>).</text>
 
-    <!-- Stack Chips -->
-    <g transform="translate(0, 142)">
+    <!-- Pitch Line 2 -->
+    <text x="0" y="88" fill="{c['text_muted']}" class="sans" font-size="11.5">Coordinates an offline-first client architecture via IndexedDB with cryptographic idempotency keys and live WebSocket broadcasts.</text>
+
+    <!-- Stack Chips & Metrics -->
+    <g transform="translate(0, 108)">
       <rect x="0" y="0" width="76" height="20" rx="4" fill="{c['chip_bg']}" stroke="{c['chip_border']}"/>
       <text x="38" y="13" text-anchor="middle" fill="{c['chip_text']}" class="mono" font-size="9.5">PostgreSQL</text>
 
@@ -374,55 +355,14 @@ def build_livepass_card(theme="dark"):
 
       <rect x="316" y="0" width="50" height="20" rx="4" fill="{c['chip_bg']}" stroke="{c['chip_border']}"/>
       <text x="341" y="13" text-anchor="middle" fill="{c['chip_text']}" class="mono" font-size="9.5">React</text>
-    </g>
-  </g>
 
-  <!-- Right: Live Feed Diagnostics Box (Starts at x=525, y=22) -->
-  <g transform="translate(525, 22)">
-    <rect width="280" height="142" rx="6" fill="{c['surface']}" stroke="{c['border_subtle']}" stroke-width="1.2"/>
-    
-    <!-- Header -->
-    <circle cx="16" cy="18" r="3.5" fill="{c['success']}" class="live-dot"/>
-    <text x="26" y="21" fill="{c['text']}" class="mono" font-size="9.5" font-weight="700">LIVE INGRESS FEED</text>
-    <text x="264" y="21" text-anchor="end" fill="{c['text_muted']}" class="mono" font-size="9">ws://sync</text>
-    <line x1="0" y1="34" x2="280" y2="34" stroke="{c['border_subtle']}" stroke-width="1"/>
-  </g>
+      <rect x="374" y="0" width="80" height="20" rx="4" fill="{c['chip_bg']}" stroke="{c['chip_border']}"/>
+      <text x="414" y="13" text-anchor="middle" fill="{c['chip_text']}" class="mono" font-size="9.5">Tailwind CSS</text>
 
-  <!-- Live Feed Content Clipped to Box -->
-  <g clip-path="url(#live-feed-clip-{theme})">
-    <g transform="translate(540, 22)">
-      <g class="feed-list">
-        <!-- Feed Item 1 (y=55) -->
-        <g transform="translate(0, 56)">
-          <text x="0" y="0" fill="{c['accent']}" class="mono" font-size="9.5" font-weight="700">[AUTH]</text>
-          <text x="46" y="0" fill="{c['text']}" class="mono" font-size="9.5">tx_98c1 &#183; token_valid</text>
-          <text x="250" y="0" text-anchor="end" fill="{c['text_muted']}" class="mono" font-size="9">0.8ms</text>
-        </g>
-        <!-- Feed Item 2 (y=80) -->
-        <g transform="translate(0, 80)">
-          <text x="0" y="0" fill="{c['warm']}" class="mono" font-size="9.5" font-weight="700">[LOCK]</text>
-          <text x="46" y="0" fill="{c['text']}" class="mono" font-size="9.5">row_401 &#183; FOR UPDATE</text>
-          <text x="250" y="0" text-anchor="end" fill="{c['text_muted']}" class="mono" font-size="9">1.2ms</text>
-        </g>
-        <!-- Feed Item 3 (y=104) -->
-        <g transform="translate(0, 104)">
-          <text x="0" y="0" fill="{c['success']}" class="mono" font-size="9.5" font-weight="700">[SYNC]</text>
-          <text x="46" y="0" fill="{c['text']}" class="mono" font-size="9.5">broadcast &#183; 1,420 peak</text>
-          <text x="250" y="0" text-anchor="end" fill="{c['text_muted']}" class="mono" font-size="9">0.4ms</text>
-        </g>
-        <!-- Feed Item 4 (y=128) -->
-        <g transform="translate(0, 128)">
-          <text x="0" y="0" fill="{c['accent']}" class="mono" font-size="9.5" font-weight="700">[QUEUE]</text>
-          <text x="46" y="0" fill="{c['text']}" class="mono" font-size="9.5">idb_drain &#183; 0 pending</text>
-          <text x="250" y="0" text-anchor="end" fill="{c['text_muted']}" class="mono" font-size="9">1.1ms</text>
-        </g>
-        <!-- Feed Item 5 (y=152) -->
-        <g transform="translate(0, 152)">
-          <text x="0" y="0" fill="{c['warm']}" class="mono" font-size="9.5" font-weight="700">[AUTH]</text>
-          <text x="46" y="0" fill="{c['text']}" class="mono" font-size="9.5">tx_99a4 &#183; token_valid</text>
-          <text x="250" y="0" text-anchor="end" fill="{c['text_muted']}" class="mono" font-size="9">0.7ms</text>
-        </g>
-      </g>
+      <!-- Right Metric Badge -->
+      <rect x="674" y="0" width="100" height="20" rx="10" fill="{c['accent_dim']}" stroke="{c['border_subtle']}"/>
+      <circle cx="686" cy="10" r="3" fill="{c['accent']}"/>
+      <text x="734" y="13" text-anchor="middle" fill="{c['accent']}" class="mono" font-size="9" font-weight="700">ZERO RACES</text>
     </g>
   </g>
 </svg>'''
