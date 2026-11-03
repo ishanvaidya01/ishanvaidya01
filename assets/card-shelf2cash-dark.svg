@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 405 168" width="100%" height="168" fill="none">
+  <defs>
+    <style>
+      .mono { font-family: 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace; }
+      .sans { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Card Frame -->
+  <rect width="405" height="168" rx="7" fill="#0D1117" stroke="#30363D" stroke-width="1.2"/>
+
+  <!-- Content -->
+  <g transform="translate(18, 18)">
+    <!-- Header: Title + Tag -->
+    <text x="0" y="14" fill="#E6EDF3" class="sans" font-size="15" font-weight="700">Shelf2Cash</text>
+    <rect x="270" y="0" width="100" height="18" rx="9" fill="rgba(88, 230, 217, 0.15)"/>
+    <text x="320" y="12.5" text-anchor="middle" fill="#58E6D9" class="mono" font-size="8.5" font-weight="700">FINTECH ENGINE</text>
+
+    <!-- Pitch Line 1 & 2 (Primary) -->
+    <text x="0" y="46" fill="#E6EDF3" class="sans" font-size="11" font-weight="500">Kirana retail financial engine with MongoDB Geospatial</text><text x="0" y="62" fill="#E6EDF3" class="sans" font-size="11" font-weight="500">cluster matchmaking.</text>
+
+    <!-- Pitch Line 3 & 4 (Architecture) -->
+    <text x="0" y="80" fill="#8B949E" class="sans" font-size="10.8">FastAPI ML microservice models historical</text><text x="0" y="95" fill="#8B949E" class="sans" font-size="10.8">replenishment to drive micro-factoring.</text>
+
+    <!-- Stack Chips -->
+    <g transform="translate(0, 122)">
+      
+        <rect x="0" y="0" width="88.8" height="19" rx="3.5" fill="#21262D" stroke="#30363D"/>
+        <text x="44.4" y="12.5" text-anchor="middle" fill="#C9D1D9" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace" font-size="9">MongoDB Geo</text>
+        
+        <rect x="94.8" y="0" width="61.6" height="19" rx="3.5" fill="#21262D" stroke="#30363D"/>
+        <text x="125.6" y="12.5" text-anchor="middle" fill="#C9D1D9" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace" font-size="9">FastAPI</text>
+        
+        <rect x="162.39999999999998" y="0" width="116.0" height="19" rx="3.5" fill="#21262D" stroke="#30363D"/>
+        <text x="220.39999999999998" y="12.5" text-anchor="middle" fill="#C9D1D9" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace" font-size="9">ML Microservice</text>
+        
+        <rect x="284.4" y="0" width="48.0" height="19" rx="3.5" fill="#21262D" stroke="#30363D"/>
+        <text x="308.4" y="12.5" text-anchor="middle" fill="#C9D1D9" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace" font-size="9">React</text>
+        
+    </g>
+  </g>
+</svg>
