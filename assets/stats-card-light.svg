@@ -59,7 +59,7 @@
 
     <!-- Active Streak -->
     <g transform="translate(600, 0)">
-      <text x="0" y="18" fill="#0D9488" class="stat-val">1d</text>
+      <text x="0" y="18" fill="#0D9488" class="stat-val">2d</text>
       <text x="0" y="34" fill="#656D76" class="stat-lbl">Active Streak</text>
     </g>
   </g>

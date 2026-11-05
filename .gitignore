@@ -1,2 +1,4 @@
 # Local QA artifacts
 test_renders/
+config.bat
+node_modules
