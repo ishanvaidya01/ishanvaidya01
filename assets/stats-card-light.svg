@@ -41,7 +41,7 @@
   <g transform="translate(30, 48)">
     <!-- Commits -->
     <g transform="translate(0, 0)">
-      <text x="0" y="18" fill="#1F2328" class="stat-val">203</text>
+      <text x="0" y="18" fill="#1F2328" class="stat-val">214</text>
       <text x="0" y="34" fill="#656D76" class="stat-lbl">Yearly Commits</text>
     </g>
 
@@ -66,13 +66,13 @@
 
   <!-- Language Progress Bar Track -->
   <rect x="30" y="104" width="770" height="8" rx="2" fill="#EAEEF2" />
-  <rect x="30.0" y="104" width="375.8" height="8" rx="2" fill="#F1E05A" /><rect x="405.8" y="104" width="202.5" height="8" rx="2" fill="#3572A5" /><rect x="608.3" y="104" width="103.2" height="8" rx="2" fill="#3178C6" /><rect x="711.5" y="104" width="53.9" height="8" rx="2" fill="#E34C26" /><rect x="765.4" y="104" width="23.9" height="8" rx="2" fill="#563D7C" />
+  <rect x="30.0" y="104" width="376.5" height="8" rx="2" fill="#F1E05A" /><rect x="406.5" y="104" width="202.5" height="8" rx="2" fill="#3572A5" /><rect x="609.0" y="104" width="103.2" height="8" rx="2" fill="#3178C6" /><rect x="712.2" y="104" width="53.9" height="8" rx="2" fill="#E34C26" /><rect x="766.1" y="104" width="23.9" height="8" rx="2" fill="#563D7C" />
 
   <!-- Language Legend -->
   
         <g transform="translate(30, 128)">
           <circle cx="4" cy="4" r="3.5" fill="#F1E05A" />
-          <text x="13" y="7" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="10.5" fill="#1F2328">JavaScript <tspan fill="#656D76">48.8%</tspan></text>
+          <text x="13" y="7" font-family="'SF Mono', 'JetBrains Mono', ui-monospace, monospace" font-size="10.5" fill="#1F2328">JavaScript <tspan fill="#656D76">48.9%</tspan></text>
         </g>
         
         <g transform="translate(156, 128)">
