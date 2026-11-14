@@ -11,6 +11,7 @@ Strict Quality Standards:
   - Zero text overflow: multi-line wrapped text for all cards.
 """
 
+import utils.http_session
 import utils.transport
 import utils.session
 import os
